@@ -22,6 +22,6 @@ But when the numbers actually have deciman places they are called a float, this 
 for example: number of pi = `3.1415`
 
 ### Boolean
-The final data type something called Boolean is very simple. It only has two possible values `**True or False**`.
+The final data type something called Boolean is very simple. It only has two possible values `True or False`.
 These values start with capital **T** and capital **F**, they don't have any qoutation marks around them or anything. 
 This data type is used a lot in programs to test if something is True or False, and for your program to respond accordingly. 
