@@ -1,6 +1,6 @@
 ## Introduction Screens using Flutter
 
-![Image](images/introduction_screen.jpg)
+![Intro_Screen Image](../images/introduction_screen.jpg)
 
 ### Pageview Widget
 In this section I'll discuss about pageview widget.
