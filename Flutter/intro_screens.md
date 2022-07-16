@@ -113,7 +113,7 @@ Here is an example of the code:
 onLastPage
                       ? GestureDetector(
                           onTap: () {
-                            // Navigator.push(context, MaterialPageRoute(builder: (context) {return Homepage()}))
+                            Navigator.push(context, MaterialPageRoute(builder: (context) {return Homepage()}))
                           },
                           child: const Text("Done"))
                       : GestureDetector(
@@ -127,3 +127,29 @@ onLastPage
                           )),
 ```
 Here in the above code I've used the onLastPage, and if it is true, I've added a done button, else I've added a next button. which means if the user is on last page, a Done button will be displayed, else a Next button will be displayed.
+
+### Screens
+Here I've created four screens, which are the children of the Pageview widget.
+Inside screens I've added images.
+Here is code of First screen named as LogoScreen:
+```
+import 'package:flutter/material.dart';
+
+class LogoScreen extends StatelessWidget {
+  const LogoScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: const Color(0xffefefef),
+      child: const Center(
+        child: Image(
+          image: AssetImage("assets/images/logo_trans.png"),
+        ),
+      ),
+    );
+  }
+}
+```
+
+In the same way I added images in other screens.
