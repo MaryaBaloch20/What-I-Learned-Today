@@ -42,3 +42,15 @@ gradient: LinearGradient(
 I've set the alignment of the gradient to top center and bottom center and inside the colors array I've added two colors, one is myGreen and the other is bgColor_zeroOpacity.
 myGreen is the color of the gradient and bgColor_zeroOpacity is the color of the background.
 I've defined the colors myGreen and bgColor_zeroOpacity in the colors.dart file.
+
+
+### DecorationImage
+Here is the code:
+```
+image: const DecorationImage(
+                    image: AssetImage("assets/images/logo.png"),
+                    fit: BoxFit.fitWidth,
+                  ),
+```
+I've used the DecorationImage widget to add image in the container. I've used a .png image with a transparent background so that the image doesn't cover the background.
+I've used the BoxFit.fitWidth to fit the image in the container.
