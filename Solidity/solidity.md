@@ -11,3 +11,17 @@ Solidity source files can contain any number of contract definitions. Each Solid
 ```
 
 In the example above `0.4.20` is the desired compiler version.
+
+### **Contracts**
+
+Now, let’s put it into code.
+
+Contracts in Solidity are similar to classes in object-oriented languages. They contain data in variables and functions that can modify these variables.
+
+They are defined by using a `contract` keyword, followed by the contract name and and two brackets `{ }` which will later enclose contract variables and functions. For example:
+
+```
+contract Pizza {
+
+}
+``` 
