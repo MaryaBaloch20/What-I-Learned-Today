@@ -53,3 +53,16 @@ The `address` keyword is used to hold Ethereum addresses. If you're planning t
 ### **Strings**
 
 The `string` variable is used to store text information. If you need to store a variable that should contain text information use the `string` keyword.
+
+### **Variable Definition**
+
+There are more data types, but we will go into more details in further lessons.
+
+Variables and their values are defined like this.
+
+```
+contract Pizza {
+    bool isWarm = true;
+    uint slicesLeft = 3;
+}
+```
