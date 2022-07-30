@@ -1,5 +1,5 @@
 # Ethereum and Solidity
-
+![](c:/Users/Marya%20Baloch/Downloads/solidityXethereum.png)
 ## A Short History Lesson
 
 **October 31, 2008 -** Date of the original Bitcoin whitepaper
