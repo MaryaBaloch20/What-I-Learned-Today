@@ -66,3 +66,41 @@ contract Pizza {
     uint slicesLeft = 3;
 }
 ```
+
+## Arithmetic's
+
+### **Arithmetic operations**
+
+Integers can be used for arithmetic operations:
+
+- Addition `x + y`
+- Subtraction `x - y`
+- Multiplication `x * y`
+- Division `x / y`
+- Remainder `x % y`
+- Exponentiation `x ** y` (`x` to the power of `y`)
+
+For example:
+
+```
+uint x = 16;
+uint spacePizza = 4;
+uint result = 0;
+
+result = x + spacePizza;     // 16 + 4 = 20
+result = x - spacePizza;     // 16 - 4 = 12
+result = x * spacePizza;     // 16 * 4 = 64
+result = x / spacePizza;     // 16 / 4 = 4
+result = x % spacePizza;     // 16 % 4 = 0
+result = x ** spacePizza;    // 16 ^ 4 = 65536
+
+```
+
+A real world example:
+
+```
+uint pizzaSlices = 6;
+uint people = 2;
+uint slicesPerPerson = pizzaSlices / people;
+uint planetCodeModulus = 10 ** people;
+```
