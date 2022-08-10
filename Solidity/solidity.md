@@ -104,3 +104,18 @@ uint people = 2;
 uint slicesPerPerson = pizzaSlices / people;
 uint planetCodeModulus = 10 ** people;
 ```
+
+### **Structs**
+
+A `struct` is a special data type that allows the programmer to group a list of variables.
+
+Structures are defined like this:
+
+```
+struct Car {
+    string make;
+    string model;
+    uint16 year;
+    uint16 horsepower;
+}
+```
