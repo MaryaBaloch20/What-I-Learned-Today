@@ -2,10 +2,11 @@
 
 ### Introduction
 Many of our daily interactions with information, businesses and services now happen over the World Wide Web, and the majority of them happen in a good old web browser on a computer or a mobile device. 
-![Web Fundametals Image](../images/web%20funda2.png)
+![Web Fundametals Image](../images/web%20funda2.png | width=200)
+
 Which begs an important question:
 
-**What exactly happens when you type a URL into your browser or click to a link to a webpage?**
+### **What exactly happens when you type a URL into your browser or click to a link to a webpage?**
 ![Web Fundamentals Image](../images/web%20funda1.png)
 
 So, what happens when you type a URL into your browser or click to a link to a webpage? Well, The URL functions as a address to a server. The server holds a document written in a Markup Language the browser can understand. 
