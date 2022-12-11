@@ -2,7 +2,7 @@
 
 ### Introduction
 Many of our daily interactions with information, businesses and services now happen over the World Wide Web, and the majority of them happen in a good old web browser on a computer or a mobile device. 
-![Web Fundametals Image](../images/web%20funda2.png | width=200)
+![Web Fundametals Image](../images/web%20funda2.png)
 
 Which begs an important question:
 
